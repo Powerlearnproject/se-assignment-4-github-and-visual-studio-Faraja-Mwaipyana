@@ -263,6 +263,9 @@ A team developing a web application uses GitHub to manage the project's reposito
 
 Submission Guidelines:
 Your answers should be well-structured, concise, and to the point.
+
 Provide real-world examples or case studies wherever possible.
+
 Cite any references or sources you use in your answers.
+
 Submit your completed assignment by [due date].
