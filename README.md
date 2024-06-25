@@ -260,6 +260,13 @@ REAL-WORLD EXAMPLES :
 
 A team developing a web application uses GitHub to manage the project's repository and track issues. Each developer clones the repository in Visual Studio, where they write and debug code. Changes are committed and pushed to GitHub, and pull requests are created for code reviews. Continuous integration workflows in GitHub Actions automatically run tests on new commits, ensuring code quality. This integration enables efficient collaboration, continuous testing, and streamlined code reviews, leading to a faster and more reliable development process.
 
+SOURCES :
+
+github docs - https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+
+visual studio code - https://code.visualstudio.com/docs/editor/whyvscode
+
+micosoft learning - https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=vs-2022
 
 Submission Guidelines:
 Your answers should be well-structured, concise, and to the point.
