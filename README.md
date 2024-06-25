@@ -101,6 +101,25 @@ Making Changes - git add .
 5.What is a pull request in GitHub, and how does it facilitate code reviews and collaboration? Outline the steps to create and review a pull request.
 GitHub Actions:
 
+ANSWERS:
+
+A pull request, is a mechanism for proposing changes from one branch to another. 
+
+It facilitates code reviews and collaboration by allowing team members to:
+
+Review code changes: Examine the proposed changes and provide feedback.
+Discuss improvements: Comment on specific lines of code and suggest modifications.
+Track progress: See the history of changes and the status of the pull request.
+
+STEPS TO CREATE AND REVIEW A PULL REQUEST:
+
+-Creating a pull request by navigating to the repository on GitHub, clicking Pull requests, and then New pull request.
+-Selecting the branches to compare (e.g., feature branch and main branch).
+-Adding a title and description to the pull request, and click Create pull request.
+-Reviewieng the pull request: Team members review the changes, leave comments, and approve or request changes.
+-Addressing feedback by making additional commits to the feature branch.
+-Merging the pull request once it has been approved.
+
 6.Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.
 Introduction to Visual Studio:
 
