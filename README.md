@@ -5,14 +5,14 @@ Assignment: GitHub and Visual Studio
 Instructions:
 Answer the following questions based on your understanding of GitHub and Visual Studio. Provide detailed explanations and examples where appropriate.
 
+
 Questions:
-Introduction to GitHub:
 
 What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.
 Repositories on GitHub:
 ANSWERS:
 
--GitHub, is a web-based platform that uses Git, a version control system, to manage and store code. 
+GitHub, is a web-based platform that uses Git, a version control system, to manage and store code. 
 
 -Its primary functions include hosting repositories, tracking changes, and facilitating collaboration among developers.
 
@@ -27,12 +27,14 @@ GitHub supports collaborative software development through features such as:
 -Issues and Projects: Tools for tracking tasks, bugs, and feature requests.
 
 
+
 What is a GitHub repository? Describe how to create a new repository and the essential elements that should be included in it.
 Version Control with Git:
 
 ANSWERS:
 
--A GitHub repository, is a storage space for project files, including the history of changes made to those files.
+A GitHub repository, is a storage space for project files, including the history of changes made to those files.
+
 
 THIS IS HOW TO CREATE NEW REPOSITORY:
 
@@ -46,7 +48,8 @@ THIS IS HOW TO CREATE NEW REPOSITORY:
 
 -Initialize the repository with a README file, .gitignore file, and a license if needed.
 
-Click Create repository.
+-Click Create repository.
+
 
 ESSENTIAL ELEMENTS OF A REPOSITORY INCLUDE:
 
