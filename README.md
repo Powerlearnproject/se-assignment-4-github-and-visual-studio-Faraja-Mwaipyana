@@ -140,6 +140,38 @@ STEPS TO CREATE AND REVIEW A PULL REQUEST:
 6.Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.
 Introduction to Visual Studio:
 
+ANSWERS:
+
+GitHub Actions, is a CI/CD (Continuous Integration and Continuous Deployment) platform that allows developers to automate workflows directly within their GitHub repositories. With GitHub Actions, you can automate tasks such as testing code, deploying applications, and managing project tasks.
+
+AN EXAMPLE OF A SIMPLE CI/CD:
+
+First Is To Create a workflow file in .github/workflows/ci.yml
+
+
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Install dependencies
+      run: npm install
+    - name: Run tests
+      run: npm test
+
+Then we Commit and push the workflow file to the repository.
+
+
 7.What is Visual Studio, and what are its key features? How does it differ from Visual Studio Code?
 Integrating GitHub with Visual Studio:
 
