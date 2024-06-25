@@ -81,20 +81,30 @@ GitHub enhances version control by providing a centralized platform where develo
 
 4.What are branches in GitHub, and why are they important? Describe the process of creating a branch, making changes, and merging it back into the main branch.
 Pull Requests and Code Reviews:
+
 ANSWERS:
+
 -Branches, in GitHub are parallel versions of a repository that allow developers to work on different features or bug fixes without affecting the main codebase. 
 
 They are important because they:
+
 -Isolate changes: Prevent unfinished features from affecting the main branch.
+
 -Facilitate collaboration: Allow multiple developers to work on different tasks simultaneously.
+
 -Simplify testing: Enable testing of changes before they are merged into the main branch.
 
 PROCESS OF CREATING BRANCH, MAKING CHANGES AND MERGING IT TO THE MAIN BRANCH:
+
 Creating branch - git checkout -b new-feature
+
 Making Changes - git add .
                  git commit -m "Add new feature"
+                 
 -Pushing The Branch To Github - git push origin new-feature
+
 -Creating a pull request on GitHub to merge the branch into the main branch.
+
 -Reviewing the pull request, address any comments, and merge it.
 
 
@@ -108,17 +118,24 @@ A pull request, is a mechanism for proposing changes from one branch to another.
 It facilitates code reviews and collaboration by allowing team members to:
 
 Review code changes: Examine the proposed changes and provide feedback.
+
 Discuss improvements: Comment on specific lines of code and suggest modifications.
+
 Track progress: See the history of changes and the status of the pull request.
 
 STEPS TO CREATE AND REVIEW A PULL REQUEST:
 
 -Creating a pull request by navigating to the repository on GitHub, clicking Pull requests, and then New pull request.
+
 -Selecting the branches to compare (e.g., feature branch and main branch).
+
 -Adding a title and description to the pull request, and click Create pull request.
+
 -Reviewieng the pull request: Team members review the changes, leave comments, and approve or request changes.
+
 -Addressing feedback by making additional commits to the feature branch.
--Merging the pull request once it has been approved.
+
+-Merging the pull request once it has been approved
 
 6.Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.
 Introduction to Visual Studio:
