@@ -148,11 +148,13 @@ AN EXAMPLE OF A SIMPLE CI/CD:
 
 First Is To Create a workflow file in .github/workflows/ci.yml
 
-
 name: CI
+
 on: [push]
+
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
     steps:
@@ -165,6 +167,7 @@ jobs:
       run: npm install
     - name: Run tests
       run: npm test
+
 
 Then we Commit and push the workflow file to the repository.
 
