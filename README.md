@@ -150,12 +150,9 @@ First Is To Create a workflow file in .github/workflows/ci.yml
 
 
 name: CI
-
 on: [push]
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
